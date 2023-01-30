@@ -16,7 +16,7 @@ def mainloop():
     game_choices: dict = {"rps": RPS, "rpsls": RPSLS}
     while True:
         print("Exit at any prompt with 'q' or 'quit'")
-        game_choice = cli.choice_prompt("Hello, would you like to play Rock Paper Scissors, "
+        game_choice = cli.choice_prompt("Hello, would you like to play Rock Paper Scissors, or"
                                         "Rock Paper Scissors Lizard Spock?", ("rps", "rpsls"))
 
         if game_choice == "quit":
